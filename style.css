@@ -1,0 +1,46 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #6a00f4, #ff00ff);
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 0px 0px 10px #ff00ff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.widget {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px #6a00f4;
+}
+
+button {
+    background: #ff00ff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #ff00ff;
+}
+
+button:hover {
+    background: #6a00f4;
+    box-shadow: 0px 0px 10px #ff00ff;
+}
